@@ -1,0 +1,22 @@
+{
+  "name": "ferry-kata",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --require ts-node/register 'test/**/*.ts'",
+    "coverage": "nyc npm test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@istanbuljs/nyc-config-typescript": "^1.0.2",
+    "@types/mocha": "^10.0.7",
+    "@types/node": "^22.0.0",
+    "mocha": "^10.7.0",
+    "nyc": "^17.0.0",
+    "ts-mocha": "^10.0.0",
+    "typescript": "^5.5.4"
+  }
+}
